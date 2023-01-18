@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(249, 249, 233);
+    overflow-x: hidden;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    z-index: -1;
+  
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 2%;
+}
+
+section {
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+}
+
+article {
+    padding: 0 2%;
+    font-family: "Noto Serif Display" , serif;
+    width:35%;
+}
+
+aside {
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+footer {
+    margin-top:5%;
+    padding: 5%;
+    padding-left: 50%;
+    background-image: url(images/background-blue.jpg);
+    color: beige;
+    -webkit-filter: saturation(10%);
+    filter: saturation(10%);
+    -webkit-filter: contrast(70%);
+    filter: contrast(70%);
+}
+
+.title {
+    padding-bottom: 2%;
+}
+.CTA-btn {
+ background-color: rgb(249, 249, 233);
+ padding: 2% 3%;
+ border: solid beige 2px;
+ font-weight: 600;
+ 
+}
+
+.CTA-btn:hover {
+    background-color: rgb(194, 187, 187);
+}
+
+.text-col { 
+    background-image: url(images/dark-blue-background-1.jpg);
+    font-family: "Noto Serif Display" , serif;
+    color: beige;
+    font-weight: 300;
+    
+    width: 65%;
+    padding-top:10%;
+    padding-left: 20%;
+  
+}
+
+
+.text {
+    text-align: center;
+    z-index: 1;
+    margin-right: -20%;
+    border: solid beige 5px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.img-col {
+    width: 40%;
+    z-index: -1;
+    -webkit-filter: grayscale(40%);
+    filter: grayscale(40%);
+  
+}
+
+
+.carousel {
+    background-color: antiquewhite;
+}
+
+.img-carousel {
+    height: auto;
+    max-width: 100%;
+}
+
+.carousel-caption {
+    background-color: rgba(198, 198, 191, 0.314);
+    
+}
+.carousel-control-icon {
+    background-color: rgba(198, 198, 191, 0.314);
+
+}
+
+.contact-box {
+    font-family: "Noto Serif Display" , serif;
+    color: beige;
+    font-weight: 300;
+    width:70%;
+    border: solid beige 5px;
+    padding: 2% 3%;
+}
+
+a {
+    color: beige;
+}
+
+a:hover {
+    color: rgb(193, 212, 212);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 0.8rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .contact-box {
+        width: 100%;
+  }
